@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'git remote add origin https://github.com/lakshithag2024a-coder/agile--assessment-q4.git'
+                    url: 'https://github.com/lakshithag2024a-coder/agile--assessment-q4.git'
             }
         }
 
